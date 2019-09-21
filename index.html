@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			VISION HACKERS
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+		  #nav {
+         text-align:center;
+		 background-color: black;
+		 height:40px;
+		 padding-top:3px;
+		
+         padding-bottom:4px;
+         }
+		#nav li {
+         display:inline;
+         }
+		#nav a {
+        text-decoration:none; 
+         padding:0 30px;
+		 color:white;
+           }
+		.dropbtn {
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		}
+		.dropdown {
+				position: relative;
+				display: inline-block;
+				color: gray;
+		}
+		.dropdown-content {
+				display: none;
+				position: absolute;
+				background-color: black;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+		}
+		.dropdown-content a {
+			
+			padding: 16px 16px;
+			text-decoration: none;
+			display: block;
+			}
+		#dp
+			{
+			width:100px;
+			}
+		.dropdown-content a:hover {background-color:gray;}
+		.dropdown:hover .dropdown-content {display: block;}
+		#r {
+				-webkit-appearance: slider-vertical;
+				margin-right:20px;
+				width: 50px;
+				height: 630px;
+		}
+		td{
+			padding-bottom:20px;
+		}	
+		#but{
+			height:40px;
+			color:white;
+			border-color:blue;
+			border-radius:100px;
+			background-color:blue;
+			font-padding-bottom:3px;
+		}
+		#icon{
+			border-radius:50px;
+		}
+		.zoomin img {
+			height: 60px;
+			width: 60px;
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+          transition: all 1s ease;
+		}
+		.zoomin img:hover {
+			width: 80px;
+			height: 80px;
+		}
+		#pd{
+			padding-bottom:-90px;
+		}
+		#cd{
+			background-color:black;
+			border-radius:30px;
+			color:white;
+		}
+	</style>
+	
+	</head>
+	
+	<body>
+		<header>
+				<center>
+					<img src="img6.png"  height="250px" width="900px"  >
+				</center>
+		</header>
+		<hr>
+	<nav id="nav">
+			<ul>
+				<li><a href="#AB">ABSTRACT</a></li>
+				<li><a href="#PF">PROCESS FLOW</a></li>
+				<li><a href="#">TRAINING</a></li>
+				<li><a href="#">ROOM</a></li>
+				<li><a href="#">CLAN</a></li>
+			</ul>
+	</nav>
+	<tr>
+		<td> 
+			<center>
+					<img style = "height: 100%;background-position: center; background-repeat: no-repeat;background-size: cover;"src="main.png">
+			</center>
+		</td>
+	</tr>
+	
+	<nav id="nav">
+	<a id = 'AB' style="font-size: 36px;">ABSTRACT</a>
+	</nav>
+
+	<tr >
+		<td> 
+		<p style="font-weight:bold;font-size: 25px;">INTRODUCTION TO PROBLEM:</p><p style="font-size: 20px;">
+In 2015, an estimated 3,60,000 people died from drowning, making drowning a major public health problem worldwide.
+In 2018, injuries accounted for over 9% of total global mortality.Drowning is the 3rd leading cause of unintentional
+injury death worldwide, accounting for 7% of all injury-related deaths.There are an estimated 360 000 annual drowning
+deaths worldwide. India holds 6th place world wide and 2nd in Asia.The data on ocean deaths hit at some trends. People
+who die in local waters tend to be men and boys, typically under 30.<br>
+</p>
+<p style="font-weight:bold;font-size: 25px;">SOLUTION:</p><p style="font-size: 20px;">
+The footage from the HD camera with long focal length fixed in huge poles (similar to an night lamp post) in ocean were
+connected to YOLO neural network. These YOLO networks checks the footage frame by frame for detecting the people
+who were drowning in the ocean with the help of pre-trained weights(we personally collected from lifeguards and
+created own in our college swimming pool).when an person is detected his/her location is detected and plotted on map
+converted to an electric pulse as fast as thunder the signal flashes to the autonomous lifebuoy thrower gun
+,Lifeguards/Rescue team, ambulance, police at same time . the autonomous lifebuoy thrower gun which has lifebuoy in
+form of bullet is fixed on the same pole as that of the camera fixed . the gun is tilted in correct position according to the
+drowning people and lifebuoy(airbag) is fired at them . the lifebuoy is fixed with an automatic air filling mechanism
+which fills the air in bag suddenly when it senses water . again the footage in the camera is checked to verify wheaten the
+drowning person caught the air bag or not , ones the drowning person got the airbag the jute attached with the pole and
+air bag is rotated in anticlockwise direction to pull the person back to the shore which helps to hold his life until the
+rescue team reaches him . then the man is treated with first aid kit which is placed in the pole itself (opens automatically
+when an emergency signal comes from the camera) and send to near by hospital with the help of ambulance . the
+information about the man is informed to his family by the police. the pole also has an flag hosting mechanism which
+hosted different color flag in beach ie, an double red flag is raised when the output from the wind sensor is very high
+indicating beach is closed for public use , yellow flag is hosted when an dangerous marine creature (shark , jellyfish ,
+whale...) is spotted in the camera , an red yellow flag to indicate surfing is allowed and protected by life guard . the
+camera is also used for marine habitation , ie when an turtle is spotted in the camera its location is plotted on map and
+sent to rescue team so that the turtle nest on the sea sure can be spotted and secured . Also an LDR is kept at the top of
+the pole to detect the light intensity and to change the direction of solar panel which is used to charge the power bank
+used to operate the Rasberry pi module , also to switch on the light automatically during the night time.All these data and
+time stamp were stored in database for future access and improving accuracy. the data can be seen from the server room
+where air compressor is equipped to supply compressed air for the autonomous lifebuoy throwing gun to operate.<br>
+</p><p style="font-weight:bold;font-size: 25px;">ADVANTAGE OVER EXISTING RESCUE METHOD:</p><p style="font-size: 20px;">
+Even though there are lot of measures taken by the government to secure drowning people but they all fail since all those
+efforts are man power . our technology had grown to a peak lever its time to integrate them to real life . the rescue team
+of-tern says that “People think the ocean is a big swimming pool. They have a false sense of security,there's nothing we
+can do unless they were notified" . this huge disadvantage can be completely avoided by using computer vision though
+the people Vision get tired computer vision never ever get tired .... the people who were drowning thinks only one thing
+“will I have one more second to live”. let them get one's segain(second+again) in life.<br></p>
+<p style="font-weight:bold;font-size: 25px;">INSPIRATION:</p><p style="font-size: 20px;">
+we lost 6 of our friends last year December 10th-2018 , who we drowned in marina beach worlds second largest beach . i
+felt the suffering of their parents thinking how he may felt during the last minute of his life . thinking "will i wont get
+another second to live" so i thought no other people on earth should ever suffer this let my friend be the last . my ultimate
+aim is to bring the people who thinks will i wont live one more second in this world back to the life again . so we named
+our project "One's SEGAIN (Second+Again) in Life" .Department of Mechanical Engineering , Department of
+Electronic and Communication Engineering ,Department of Information & Technology in our college joined hands with
+me to save the drowning people.</p>
+			
+		</td>
+	</tr>
+
+	<nav id="nav">
+	<a id = 'PF' style="font-size: 36px;">PROCESS FLOW</a>
+	</nav>
+
+	<tr>
+		<td> 
+			<center>
+					<img style = "height: 100%;background-position: center; background-repeat: no-repeat;background-size: cover;" src="processflow.png">
+			</center>
+		</td>
+	</tr>
+
+
+
+	<nav id="nav">
+	<a id = 'PF' style="font-size: 36px;">CONSTRUCTION</a>
+	</nav>
+	<tr>
+	 <video width="320" height="240" controls>
+ 	 <source src="https://www.youtube.com/watch?v=0UtSnwolqNY" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+<video width="320" height="240" controls>  	
+<source src="https://drive.google.com/open?id=1TBoENe9nONqZ6tsmhKVFooBY8J99yPkE" type="video/mp4">
+	Your browser does not support the video tag.
+</video> 
+	</tr>
+		<footer id="cd">
+			<center>
+				<hr>
+				....
+				<hr>
+			</center>
+		</footer>
+	</body>
+</html>
